@@ -1,0 +1,132 @@
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+  color: #494d55;
+  background-color: #2f3136;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,
+body {
+  height: 100%;
+}
+
+section.commands {
+	padding: 8%;
+}
+
+.command-container {
+	margin: 0 auto 5px;
+	font-family: 'Gadugi';
+	width: 70%;
+	background-color: #36393f;
+	padding: 20px;
+	color: #dcddde;
+}
+
+span.text-bold {
+	font-weight: bold;
+}
+
+span.highlight-yellow {
+	color: #ffc000;
+}
+
+span.highlight-blue {
+	color: #3a56ce;
+}
+
+span.highlight-red {
+	color: #c00000;
+}
+
+span.highlight-orange {
+	color: #ed7d31;
+}
+
+span.highlight-green {
+	color: #70ad47;
+}
+
+.command-title, .command-explain, .command-example {
+	display: block;
+}
+
+.command-title {
+	font-size: 28px;
+	font-weight: bolder;
+}
+
+.command-title > div.master, .command-title > div.disable, .command-title > div.owner {
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 2px 5px;
+	margin-left: 5px;
+	display: block;
+	float: right;
+}
+
+div.master {
+	border: 2px solid #ed7d31;
+	background-color: #f4b183;
+	color: rgb(132, 60, 12);
+}
+div.master:before {
+	content: "Master Only";
+}
+
+div.disable {
+	border: 2px solid #70ad47;
+	background-color: #a9d18e;
+	color: #385723;
+}
+div.disable:before {
+	content: "Can be disabled";
+}
+
+div.owner {
+	border: 2px solid #4472c4;
+	background-color: #8faadc;
+	color: #1f3864;
+}
+div.owner:before {
+	content: "Owner Only";
+}
+
+.command-explain {
+	font-size: 20px;
+}
+
+.command-example {
+	margin-top: 4px;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 5px;
+	background-color: #40444b;
+	line-height: 1;
+	position: relative;
+}
+
+.command-example i {
+	font-size: 28px;
+	vertical-align: top;
+}
+
+.command-example .vl {
+	height: 100%;
+	margin: -5px 0 0;
+	width: 1px;
+	position: absolute;
+	display: inline-block;
+	background: #36393f;
+}
+
+.command-example > div.textbox {
+	margin-left: 11px;
+	display: inline-block;
+}
+
+.command-example > div.textbox > span {
+	line-height: 24px;
+}
