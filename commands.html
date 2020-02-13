@@ -1,0 +1,271 @@
+<html lang="en">
+	<head>
+		<title>Echo 3.0 - Commands</title>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="The Go to place to learn everything about Echo's commands!">
+		<meta name="author" content="JurrijnP">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link
+			href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+			rel="stylesheet" type="text/css">
+		<!-- Global CSS -->
+		<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+		<!-- Plugins CSS -->
+		<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/style2.css">
+		<link rel="stylesheet" href="assets/fontawesome/css/all.css">
+	</head>
+	
+	<body class="landing-page">
+		<div class="page-wrapper">
+			<header class="header text-center">
+				<div class="container">
+					<div class="branding">
+						<h1 class="logo">
+							<span aria-hidden="true" class="icon_documents_alt icon"></span>
+							<span class="text-highlight">Echo</span><span class="text-bold">Commands</span>
+						</h1>
+					</div>
+					<div class="tagline">
+						<p>Mastering Echo 3.0!</p>
+					</div>
+				</div>
+			</header>
+			<section class="commands">
+				<div class="command-container">
+					<div class="command-title">
+						<span>Contact</span>
+					</div>
+					<span class="command-explain">This command sends contact information to you in a DM.</span>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.contact</span>
+						</div>
+					</div>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>@Echo#2101 how to contact?</span>
+						</div>
+					</div>
+				</div>
+				<div class="command-container">
+					<div class="command-title">
+						<span>Legal</span>
+					</div>
+					<span class="command-explain">This command sends legal information to you in a DM.</span>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.legal</span>
+						</div>
+					</div>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>@Echo#2101 legal-agreement</span>
+						</div>
+					</div>
+				</div>
+				<div class="command-container">
+					<div class="command-title">
+						<span>Help</span>
+					</div>
+					<span class="command-explain">This command sends help to your DM on how to use Echo.<br>Optionally you can supply a command that will show more info about that command.</span>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.help <span class="highlight-yellow">[Command]</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="command-container">
+					<div class="command-title">
+						<span>Info</span>
+					</div>
+					<span class="command-explain">This command will show some statistics about Echo.<br>By using <span class="highlight-yellow">-extended</span> Echo will also provide some technical data.</span>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.info<span class="highlight-yellow">[-extended]</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="command-container">
+					<div class="command-title">
+						<span>What is Echo’s prefix?</span>
+					</div>
+					<span class="command-explain">Forgot what Echo’s prefix was?<br>No problem! Ask Echo and he will tell you.</span>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>@Echo#2101 what is your prefix?</span>
+						</div>
+					</div>
+				</div>
+				<div class="command-container">
+					<div class="command-title">
+						<span>Enabling & Disabling commands.</span>
+						<div class="master"></div>
+					</div>
+					<span class="command-explain">With these commands you can enable/disable other specific commands.<br>You can also disable parts of a command.<br><br>(By default everything is enabled.)</span>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.enable <span class="highlight-yellow">&lt;Command&gt;</span><br>.enableall</span>
+						</div>
+					</div>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.disable <span class="highlight-yellow">&lt;Command&gt;</span></span>
+						</div>
+					</div>
+					<br>
+					<span class="command-explain">Example, this would disable the prefix command:</span>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.disable prefix</span>
+						</div>
+					</div>
+				</div>
+				<div class="command-container">
+					<div class="command-title">
+						<span>Prefix</span>
+						<div class="master"></div>
+						<div class="disable"></div>
+					</div>
+					<span class="command-explain">With this command you can change the prefix Echo will listen to.<br>Note that the prefix has a maximum length of 3 and the prefix “:” is reserved for the Intralink system.</span>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.prefix <span class="highlight-yellow">&lt;New Prefix&gt;</span></span>
+						</div>
+					</div>
+					<br>
+					<span class="command-explain">Example, this would change the prefix to “!”:</span>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.prefix !</span>
+						</div>
+					</div>
+				</div>
+				<div class="command-container">
+					<div class="command-title">
+						<span>Language</span>
+						<div class="master"></div>
+						<div class="disable"></div>
+					</div>
+					<span class="command-explain">With this command you can change the language Echo will respond in.<br>You can use an abbreviation, the English name or the native name of the language.</span>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.language <span class="highlight-yellow">&lt;New Language&gt;</span></span>
+						</div>
+					</div>
+					<br>
+					<span class="command-explain">Example, these would change the language to Dutch and French respectively:</span>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.language NL<br>.language Français</span>
+						</div>
+					</div>
+				</div>
+				<div class="command-container" id="debug">
+					<div class="command-title">
+						<span>Debug</span>
+						<div class="master"></div>
+					</div>
+					<span class="command-explain">With this command you can check the status of Echo’s permissions and the roles he can manage. Response will be send in DM.</span>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.debug</span>
+						</div>
+					</div>
+				</div>
+				<div class="command-container" id="botmaster">
+					<div class="command-title">
+						<span>Botmaster</span>
+						<div class="owner trueowner" title="Can only be executed by the Owner of the server."></div>
+					</div>
+					<span class="command-explain">With this command you can control who is recognised as a Master.<br><br>
+Who is recognised can rely on a role, a (combination of) permission(s) or a user list. You can change this by using the subcommand <span class="highlight-yellow">-mode</span>.<br><br>
+If you switch to a certain mode for the first time Echo will automatically set some data for you.<br>
+For the user list mode this will be the owner ID, for the role mode the highest role in the server and for the permission mode the Manage Server permission.<br><br>
+If you want Echo to rely on a role or a (combination of) permission(s) you can change these respectively by using <span class="highlight-yellow">-role</span> & <span class="highlight-yellow">-permission</span> as subcommand. Permissions can either be provided as integer or by their names.<br><br>
+If you want to rely on a user list see the <span class="text-bold">Add- & Delmaster</span> section.</span>
+					<br>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.botmaster-mode <span class="highlight-yellow">&lt;Mode&gt;</span><br>.botmaster-role <span class="highlight-yellow">&lt;Role&gt;</span><br>.botmaster-permission <span class="highlight-yellow">&lt;Permission&gt;</span></span>
+						</div>
+					</div>
+					<br>
+					<span class="command-explain">Example, this would change the system to rely on a role:</span>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.botmaster-mode role</span>
+						</div>
+					</div>
+					<br>
+					<span class="command-explain">This would change the botmaster role to “Bot Commander” and change the required permission to “Administrator” <span class="text-bold">&</span> “Manage Server”:</span>
+					<div class="command-example">
+						<i class="fas fa-plus-circle"></i>
+						<div class="vl"></div>
+						<div class="textbox">
+							<span>.botmaster-role Bot Commander<br>.botmaster-permission Administrator, Manage Server</span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="footer text-center">
+			<div class="container">
+				<small class="copyright"><a href="http://discord.gg/YWBKbkD" targe="_blank">Echo Group</a>, All rights reserved. Made by JurrijnP.</small>
+			</div>
+		</footer>
+	</body>
+</html>
