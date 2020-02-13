@@ -17,8 +17,8 @@ section.commands {
 
 .command-container {
 	margin: 0 auto 5px;
-	font-family: 'Gadugi';
-	width: 70%;
+	font-family: 'Gadugi', 'Open Sans', 'Arial';
+	min-width: 70%;
 	background-color: #36393f;
 	padding: 20px;
 	color: #dcddde;
@@ -57,16 +57,6 @@ span.highlight-green {
 	font-weight: bolder;
 }
 
-.command-title > div.master, .command-title > div.disable, .command-title > div.owner {
-	border-radius: 8px;
-	font-size: 16px;
-	font-weight: normal;
-	padding: 2px 5px;
-	margin-left: 5px;
-	display: block;
-	float: right;
-}
-
 div.master {
 	border: 2px solid #ed7d31;
 	background-color: #f4b183;
@@ -92,6 +82,24 @@ div.owner {
 }
 div.owner:before {
 	content: "Owner Only";
+}
+div.owner.trueowner {
+	border: 2px solid rgb(191, 144, 0);
+	background-color: rgb(255, 217, 102);
+	color: rgb(127, 96, 0);
+}
+div.owner.trueowner:before {
+	font-weight: bold;
+}
+
+.command-title > div.master, .command-title > div.disable, .command-title > div.owner {
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 2px 5px;
+	margin-left: 5px;
+	display: block;
+	float: right;
 }
 
 .command-explain {
